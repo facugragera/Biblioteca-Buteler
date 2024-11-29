@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliotur - Visitas Guiadas</title>
+    <link rel="stylesheet" href="styles_bibliotour.css">
+</head>
+<body>
+    <header>
+        <h1>Bibliotur</h1>
+        <p>¿Querés conocer la Biblioteca Alfonso Buteler y la Capilla Ntra Sra. de Loreto en un encuentro entre el saber y la fe?</p>
+    </header>
+    <main>
+        <section class="description">
+            <p>Te invitamos a realizar un recorrido en donde podrás conocer en profundidad el aporte valioso a la cultura cordobesa que encierran sus muros.</p>
+            <p>La Biblioteca Buteler es considerada Patrimonio Cultural por su acervo bibliográfico de 40,000 volúmenes que cubren sus paredes y el invaluable resguardo de un Fondo Antiguo de los siglos XVI, XVII y XVIII perteneciente a la Compañía de Jesús.</p>
+        </section>
+        <section class="more-info">
+            <button onclick="toggleMoreInfo()">Más INFO...</button>
+            <div id="more-info-content" style="display:none;">
+                <p>Información adicional sobre la Biblioteca Buteler y la Capilla Ntra Sra. de Loreto...</p>
+            </div>
+        </section>
+        <section class="registration">
+            <h2>Formulario de Inscripción</h2>
+            <a href="URL_DEL_FORMULARIO_DE_GOOGLE" target="_blank">Inscribirse Aquí</a>
+        </section>
+        <section class="schedule">
+            <h2>Días y Horarios</h2>
+            <ul>
+                <li>Julio 22 <a href="URL_DEL_FORMULARIO_DE_GOOGLE" target="_blank">Inscribirse Ahora</a></li>
+                <li>Agosto 26 <a href="URL_DEL_FORMULARIO_DE_GOOGLE" target="_blank">Inscribirse Ahora</a></li>
+            </ul>
+        </section>
+        <section class="pricing">
+            <h2>Precios</h2>
+            <p>Visita gratuita hasta septiembre.</p>
+            <p>Desde septiembre: $2000 por visita.</p>
+            <p>En los Capuchinos: $6000 por una hora, $13,000 con picada y vino.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Biblioteca Alfonso Buteler. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        function toggleMoreInfo() {
+            var infoContent = document.getElementById('more-info-content');
+            if (infoContent.style.display === 'none') {
+                infoContent.style.display = 'block';
+            } else {
+                infoContent.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
