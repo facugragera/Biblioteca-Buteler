@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #2c3e50; /* Cambia este color según tu preferencia */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.description p, .more-info p, .registration h2, .schedule h2, .pricing h2, .pricing p {
+    margin: 10px 0;
+}
+
+.more-info button {
+    background-color: #2980b9; /* Cambia este color según tu preferencia */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.more-info button:hover {
+    background-color: #3498db;
+}
+
+.registration a, .schedule a {
+    background-color: #e74c3c; /* Cambia este color según tu preferencia */
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.registration a:hover, .schedule a:hover {
+    background-color: #c0392b;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
